@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import TechStack from '../TechStack/TechStack';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -27,6 +28,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
+          <TechStack />
           {projects.map(project => {
             const { id, title, info, info2, url, repo, img } = project;
 
