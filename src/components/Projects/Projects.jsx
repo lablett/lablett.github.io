@@ -31,7 +31,6 @@ const Projects = () => {
           <TechStack />
           {projects.map(project => {
             const { id, title, info, info2, url, repo, img } = project;
-
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>

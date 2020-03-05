@@ -3,8 +3,9 @@ import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab);
+library.add(fab, faDatabase);
 
 const TechStack = () => (
   <Fade bottom duration={1000} delay={500} distance="30px">
@@ -37,7 +38,7 @@ const TechStack = () => (
         <FontAwesomeIcon icon={['fab', 'r-project']} size="6x" />
       </li>
       <li>
-        <FontAwesomeIcon icon={['fab', 'database']} size="6x" />
+        <FontAwesomeIcon icon={faDatabase} size="6x" />
       </li>
       <li>
         <FontAwesomeIcon icon={['fab', 'android']} size="6x" />
