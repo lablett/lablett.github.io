@@ -26,6 +26,9 @@ const TechStack = () => (
         <FontAwesomeIcon icon={['fab', 'node']} size="6x" />
       </li>
       <li>
+        <FontAwesomeIcon icon={['fab', 'yarn']} size="6x" />
+      </li>
+      <li>
         <FontAwesomeIcon icon={['fab', 'npm']} size="6x" />
       </li>
       <li>
@@ -51,6 +54,9 @@ const TechStack = () => (
       </li>
       <li>
         <FontAwesomeIcon icon={['fab', 'github']} size="6x" />
+      </li>
+      <li>
+        <FontAwesomeIcon icon={['fab', 'gitkraken']} size="6x" />
       </li>
     </ul>
   </Fade>
