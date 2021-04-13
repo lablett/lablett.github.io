@@ -1,4 +1,3 @@
-/* eslint-disable no-array-index-key */
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
