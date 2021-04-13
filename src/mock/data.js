@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Lucille | Software Developer', // e.g: 'Name | Developer'
+  title: 'Lucille | Software Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -11,16 +11,19 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Lucille',
-  subtitle: 'I am a Developer',
+  subtitle: 'I am a Software Engineer',
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile_square2.jpg',
-  paragraphOne: `I am a Developer with previous experience as both a Data Scientist and a Mine Geologist. As a creative person who loves to build things and understand how and why they work, software development is my passion.  Whilst I enjoyed my previous roles, I find software development more creatively fulfilling, and I am pursuing a career in what I enjoy most.`,
-  paragraphTwo: `I love to learn and am constantly expanding my programming abilities. Check out my latest projects below!`,
-  paragraphThree: `Outside of programming I enjoy paper craft, reading science fiction, cooking, exploring nature, and looking after my adorable cats.`,
+  text: {
+    paragraphOne: `I am a Software Engineer experienced in the design and development of full-stack web solutions following Agile methodologies.  I take pride in my work and ship high-quality, well-tested code and a bug-free user experience.  As a creative person who loves to build things and understand how and why they work, software development is my passion.`,
+    paragraphTwo: `I have also worked as both a Data Scientist and a Mine Geologist, however I find software development to be more creatively fulfilling.  I am pursuing a career in what I enjoy most.`,
+    paragraphThree: `I love to learn and am constantly expanding my programming abilities. Check out my latest projects below!`,
+    paragraphFour: `Outside of programming I enjoy paper craft, reading science fiction, cooking, exploring nature, and looking after my adorable cats.`,
+  },
   resume: '../../pdf/Lucille-Ablett-CV.pdf', // if no resume, the button will not show up
 };
 
