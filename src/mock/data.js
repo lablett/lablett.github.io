@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile_square2.jpg',
   text: {
-    paragraphOne: `I am a Software Engineer experienced in the design and development of full-stack web solutions following Agile methodologies.  I take pride in my work and ship high-quality, well-tested code and a bug-free user experience.  As a creative person who loves to build things and understand how and why they work, software development is my passion.`,
-    paragraphTwo: `I have also worked as both a Data Scientist and a Mine Geologist, however I find software development to be more creatively fulfilling.  I am pursuing a career in what I enjoy most.`,
+    paragraphOne: `I am a Software Engineer experienced in the design and development of full-stack web solutions following Agile methodologies.  I take pride in my work and ship high-quality, well-tested code and a bug-free user experience.  As a creative person who loves to build things and understand how and why they work.`,
+    paragraphTwo: `I have also worked as both a Data Scientist and a Mine Geologist, however software development is my passion.   I am pursuing a career in what I enjoy most.`,
     paragraphThree: `I love to learn and am constantly expanding my programming abilities. Check out my latest projects below!`,
     paragraphFour: `Outside of programming I enjoy paper craft, reading science fiction, cooking, exploring nature, and looking after my adorable cats.`,
   },
