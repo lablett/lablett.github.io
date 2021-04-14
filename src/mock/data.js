@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile_square2.jpg',
   text: {
-    paragraphOne: `I am a Software Engineer with experience in the design and development of full-stack web solutions following Agile methodologies.  I take pride in my work and ship high-quality, well-tested code with a bug-free user experience.`,
+    paragraphOne: `I am a Software Engineer with experience in the design and development of full-stack web solutions following Agile methodologies.  I take pride in my work and ship high-quality, well-tested code to create a bug-free user experience.`,
     paragraphTwo: `I have previously worked as both a Data Scientist and a Mine Geologist, but now I am pursuing a career in what I enjoy most.  As a creative person who loves to build things and understand how and why they work, software development is my passion.`,
     paragraphThree: `I love to learn and am constantly expanding my programming abilities. Check out my latest projects below!`,
     paragraphFour: `Outside of programming I enjoy paper craft, reading science fiction, cooking, exploring nature, and looking after my adorable cats.`,
