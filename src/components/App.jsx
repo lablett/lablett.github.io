@@ -24,6 +24,8 @@ function App() {
     setFooter({ ...footerData });
   }, []);
 
+  // TODO: Create loading animation
+
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />

@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Lucille | Software Developer', // e.g: 'Name | Developer'
+  title: 'Lucille | Software Engineer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portfolio', // e.g: Welcome to my website
 };
@@ -11,16 +11,19 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Lucille',
-  subtitle: 'I am a Developer',
+  subtitle: 'I am a Software Engineer',
   cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile_square2.jpg',
-  paragraphOne: `I am a Developer with previous experience as both a Data Scientist and a Mine Geologist. As a creative person who loves to build things and understand how and why they work, software development is my passion.  Whilst I enjoyed my previous roles, I find software development more creatively fulfilling, and I am pursuing a career in what I enjoy most.`,
-  paragraphTwo: `I love to learn and am constantly expanding my programming abilities. Check out my latest projects below!`,
-  paragraphThree: `Outside of programming I enjoy paper craft, reading science fiction, cooking, exploring nature, and looking after my adorable cats.`,
+  text: {
+    paragraphOne: `I am a Software Engineer with experience in the design and development of full-stack web solutions following Agile methodologies.  I take pride in my work and ship high-quality, well-tested code with a bug-free user experience.`,
+    paragraphTwo: `I have previously worked as both a Data Scientist and a Mine Geologist, but now I am pursuing a career in what I enjoy most.  As a creative person who loves to build things and understand how and why they work, software development is my passion.`,
+    paragraphThree: `I love to learn and am constantly expanding my programming abilities. Check out my latest projects below!`,
+    paragraphFour: `Outside of programming I enjoy paper craft, reading science fiction, cooking, exploring nature, and looking after my adorable cats.`,
+  },
   resume: '../../pdf/Lucille-Ablett-CV.pdf', // if no resume, the button will not show up
 };
 
@@ -28,9 +31,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: '60decibels.png',
+    title: '60 Decibels Impact Platform (Co-Creator)',
+    info: 'A platform for customers to create their own impact measurement projects, and access project status, results, and reports on private user dashboards. ',
+    info2: 'React & Redux, Next.js, Prisma & GraphQL, Python, PowerBI.',
+    url: 'https://app.60decibels.com',
+  },
+  {
+    id: uuidv1(),
     img: 'smartbrain.jpg',
     title: 'Smart Brain',
-    info: 'ReactJS application implementing Clarifai computer vision API',
+    info: 'ReactJS application implementing Clarifai computer vision API.',
     info2: 'ReactJS, Node.js, Heroku.',
     url: 'https://smart-brain--2020.herokuapp.com/',
     repo: 'https://github.com/lablett/face-recognition-app', // if no repo, the button will not show up
@@ -39,7 +50,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'smartbrain-api.jpg',
     title: 'Smart Brain API',
-    info: 'Backend for Smart Brain',
+    info: 'Backend for Smart Brain.',
     info2: 'Express.js, Postman, bcrypt-nodejs, PostgreSQL.',
     url: 'https://smart-brain--2020.herokuapp.com/',
     repo: 'https://github.com/lablett/smart-brain-api', // if no repo, the button will not show up
